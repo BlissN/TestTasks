@@ -1,0 +1,11 @@
+*Dot1x_NW_MsgTask_5	LOG-4-Q_IND: debug.c:2486 Unhandled debug module 187.
+*apfOrphanSocketTask	IPV6-3-INVALID_ADDR_ORPHAN: ipv6_net.c:715 Invalid ipv6 address ::, failed to do data gleaning.
+*dot1xMsgTask	LOG-4-Q_IND: debug.c:2486 Unhandled debug module 187.
+*dot1xMsgTask	LOG-4-Q_IND: debug.c:2486 Unhandled debug module 187.[...It occurred 2 times.!]
+*dtlArpTask	LOG-4-Q_IND: debug.c:2486 Unhandled debug module 187.
+*dtlArpTask	LOG-4-Q_IND: debug.c:2486 Unhandled debug module 187.[...It occurred 2 times.!]
+*osapiBsnTimer	LOG-4-Q_IND: debug.c:2486 Unhandled debug module 187.
+*osapiBsnTimer	OSAPI-4-TIMERTCB_REALLOCATED: timerlib.c:371 Timer 2388/956872 ('SISF Timer') found to be destroyed/reallocated.
+*osapiBsnTimer	OSAPI-4-TIMERTCB_REALLOCATED: timerlib.c:371 Timer 5360/957278 ('SISF Timer') found to be destroyed/reallocated.
+*spamReceiveTask	DEBUG-4-INVALID_MODULE: debug.c:2486 Unhandled debug module 187.
+*webauthRedirect	LOG-4-Q_IND: debug.c:2486 Unhandled debug module 187.
