@@ -1,0 +1,40 @@
+13076 in use, 35039 most used
+Denied ICMP type=3, code=3 from [ip] on interface [interface]
+Deny IP due to Land Attack from [ip] to [ip]
+Deny TCP (no connection) from [ip]/[port] to [ip]/[port] flags ACK  on interface [interface]
+Deny TCP (no connection) from [ip]/[port] to [ip]/[port] flags FIN  on interface [interface]
+Deny TCP (no connection) from [ip]/[port] to [ip]/[port] flags FIN ACK  on interface [interface]
+Deny TCP (no connection) from [ip]/[port] to [ip]/[port] flags FIN ACK URG  on interface [interface]
+Deny TCP (no connection) from [ip]/[port] to [ip]/[port] flags FIN PSH ACK  on interface [interface]
+Deny TCP (no connection) from [ip]/[port] to [ip]/[port] flags PSH ACK  on interface [interface]
+Deny TCP (no connection) from [ip]/[port] to [ip]/[port] flags RST  on interface [interface]
+Deny TCP (no connection) from [ip]/[port] to [ip]/[port] flags RST ACK  on interface [interface]
+Deny TCP (no connection) from [ip]/[port] to [ip]/[port] flags SYN ACK  on interface [interface]
+Deny TCP reverse path check from [ip] to [ip] on interface [interface]
+Deny UDP reverse path check from [ip] to [ip] on interface [interface]
+Device completed SSL handshake with client outside:[ip]/[port]
+Duplicate TCP SYN from outside:[ip]/[port] to dmz:[ip]/[port] with different initial sequence number
+FTP connection from outside:[ip]/[port] to vos2:[ip]/[port], user comersant Stored file 2014-11-13_15-33-29---1---megafon-out.wav
+FTP connection from outside:[ip]/[port] to vos2:[ip]/[port], user comersant Stored file 2014-11-13_15-33-29---2---megafon-out.wav
+FTP connection from outside:[ip]/[port] to vos2:[ip]/[port], user comersant Stored file 2014-11-13_15-33-29---3---megafon-out.wav
+Failed to locate egress interface for TCP from vm:[ip]/[port] to [ip]/[port]
+Group <RA_TELIGENT> User <kvishnevetsky> IP <[ip]> Transmitting large packet 1418 (threshold 1331).
+Group = [ip], IP = [ip], IKE Initiator: Rekeying Phase 2, Intf outside, IKE Peer [ip]  local Proxy Address [ip], remote Proxy Address [ip],  Crypto map (OUTSIDE_MAP)
+Group = [ip], IP = [ip], PHASE 2 COMPLETED [msgid]
+Group = [ip], IP = [ip], Security negotiation complete for LAN-to-LAN Group ([ip])  Initiator, Inbound SPI = [spi], Outbound SPI = [spi]
+IPSEC: An inbound LAN-to-LAN SA (SPI= [spi]) between [ip] and [ip] (user= [ip]) has been created.
+IPSEC: An inbound LAN-to-LAN SA (SPI= [spi]) between [ip] and [ip] (user= [ip]) has been deleted.
+IPSEC: An outbound LAN-to-LAN SA (SPI= [spi]) between [ip] and [ip] (user= [ip]) has been created.
+IPSEC: An outbound LAN-to-LAN SA (SPI= [spi]) between [ip] and [ip] (user= [ip]) has been deleted.
+No matching connection for ICMP error message: icmp src guest:[ip] dst dmz:[ip] (type 3, code 3) on guest interface.  Original IP payload: udp src [ip]/[port] dst [ip]/[port].
+No matching connection for ICMP error message: icmp src guest:[ip] dst service:[ip] (type 3, code 3) on guest interface.  Original IP payload: udp src [ip]/[port] dst [ip]/[port].
+No matching connection for ICMP error message: icmp src outside:[ip] dst identity:[ip] (type 3, code 3) on outside interface.  Original IP payload: udp src [ip]/[port] dst [ip]/[port].
+PMTU-D packet 1418 bytes greater than effective mtu 1331, dest_addr=[ip], src_addr=[ip], prot=TCP
+SSL session with client outside:[ip]/[port] terminated.
+Starting SSL handshake with client outside:[ip]/[port] for TLSv1 session.
+TCP access denied by ACL from [ip]/[port] to outside:[ip]/[port]
+[ ACL drop] drop rate-2 exceeded. Current burst rate is [count] per second, max configured rate is [count]; Current average rate is [count] per second, max configured rate is [count]; Cumulative total count is [count]
+[ Firewall] drop rate-2 exceeded. Current burst rate is [count] per second, max configured rate is [count]; Current average rate is [count] per second, max configured rate is [count]; Cumulative total count is [count]
+[ Scanning] drop rate-1 exceeded. Current burst rate is [count] per second, max configured rate is [count]; Current average rate is [count] per second, max configured rate is [count]; Cumulative total count is [count]
+[ Scanning] drop rate-2 exceeded. Current burst rate is [count] per second, max configured rate is [count]; Current average rate is [count] per second, max configured rate is [count]; Cumulative total count is [count]
+regular translation creation failed for icmp src stf:[ip] dst outside:[ip] (type 3, code 3)
