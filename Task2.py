@@ -2,7 +2,7 @@ import re
 ASA=set()
 ip_pattern=re.compile('[0-9]{0,4}\.[0-9]{0,4}\.[0-9]{0,4}\.[0-9]{0,5}') # Регулярка учитывает и заменяет в т.ч. некорректные ip адреса
 port_pattern = re.compile('(?<=\/)\d{0,5}')
-date_pattern = re.compile('.*ASA-[0-9]-[0-9]{6}: ')
+date_pattern = re.compile('.*(?=%ASA)')
 int_pattern = re.compile('(?<=interface ).{0,10}(?=\n)')
 spi_pattern = re.compile('(?<== )0x[0-9a-fA-F]{8}')
 counts_pattern = re.compile('(?<= is )\d*')
